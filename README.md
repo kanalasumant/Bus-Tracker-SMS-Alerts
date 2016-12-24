@@ -3,6 +3,6 @@ A python web scraping project to track Buses in Upstate NY area and notify users
 
 ## Required Modules:
 
-[Twilio](https://www.twilio.com/docs/)
-[Selenium](http://selenium-python.readthedocs.io/)
-time module.
+[Twilio](https://www.twilio.com/docs/)  
+[Selenium](http://selenium-python.readthedocs.io/)  
+[time](https://docs.python.org/2/library/time.html)  
