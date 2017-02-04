@@ -8,8 +8,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from twilio.rest import TwilioRestClient
 import time
 
-ACCOUNT_SID = "AC8a77e5606f86dfe67011bbd5a79115a1" 
-AUTH_TOKEN = "92f76e07cd6d9c9cd6cca82865d8b9cd"
+ACCOUNT_SID = "<your sid>" 
+AUTH_TOKEN = "<your token>"
 client = TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN)
 
 '''
