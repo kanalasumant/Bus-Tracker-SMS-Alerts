@@ -73,8 +73,8 @@ while True:
 	if j == ' ': resp = wait.until(EC.presence_of_element_located((By.ID, 'noArrivals')))
 	final = resp.text.encode()
 
-	if j == ' ': client.messages.create(to = "+17327895282", from_ = "+18482307122", body = final)
+	if j == ' ': client.messages.create(to = "+1<your number>", from_ = "+1<your twilio assigned number>", body = final)
 	else:
 		f = int(resp.text[:2].encode())
-		if f<15: client.messages.create(to = "+17327895282", from_ = "+18482307122", body = "Hurry Up! The bus leaves in "+str(f)+ " minutes")
+		if f<15: client.messages.create(to = "+1<your number>", from_ = "+1<your twilio assigned number>", body = "Hurry Up! The bus leaves in "+str(f)+ " minutes")
 	time.sleep(10)
