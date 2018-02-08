@@ -7,3 +7,6 @@ A python web scraping project to notify users with SMS alerts for the required b
 **[Selenium](http://selenium-python.readthedocs.io/)**: Selenium automates browsers.  
 **[time](https://docs.python.org/2/library/time.html)**: Module which can handle time and date effectively.
 
+## License
+
+[MIT](https://opensource.org/licenses/mit-license)
